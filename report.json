@@ -1,0 +1,41 @@
+{
+  "process": "Company Incorporation",
+  "documents_uploaded": 1,
+  "issues_found": [
+    {
+      "document": "text.docx",
+      "context": "Jurisdiction",
+      "issue": "Jurisdiction not specified as ADGM",
+      "severity": "High",
+      "suggestion": "Replace jurisdiction clause with 'Abu Dhabi Global Market (ADGM) Courts'."
+    },
+    {
+      "document": "text.docx",
+      "context": "Company Details",
+      "issue": "Company name placeholder missing",
+      "severity": "Medium",
+      "suggestion": "Add '[Company Name]' placeholder where applicable."
+    },
+    {
+      "document": "text.docx",
+      "context": "Address",
+      "issue": "Registered address missing",
+      "severity": "High",
+      "suggestion": "Include the company's registered office address."
+    },
+    {
+      "document": "text.docx",
+      "context": "Signatures",
+      "issue": "Signature section missing",
+      "severity": "High",
+      "suggestion": "Add signature lines for authorized signatories."
+    },
+    {
+      "document": "text.docx",
+      "context": "Date",
+      "issue": "Date placeholder missing",
+      "severity": "Low",
+      "suggestion": "Add '[Date]' placeholder to indicate document date."
+    }
+  ]
+}
